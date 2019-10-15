@@ -20,7 +20,7 @@ rem Variables
 
 set Alpha=TestFile.txt
 IF DEFINED Alpha (
-	echo Variable 'Alpha' defined: %TestFilename%
+	echo Variable 'Alpha' defined: %Alpha%
 ) 
 echo.
 
