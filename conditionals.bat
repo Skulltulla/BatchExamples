@@ -45,6 +45,20 @@ IF NOT HELLO==WORLD (
 	echo.
 )
 
+IF [] == [] (
+	echo Empty string is empty!
+)
+
+set EmptyString=
+if [%EmptyString%]==[] (
+	echo EmptyString variable is empty!
+)
+
+set /p StringInput="Press Enter: "
+if [%StringInput%] == [] (
+	echo You typed nothing. Good day, sir!
+)
+
 rem --------------------------------------------------
 rem Error Level
 
